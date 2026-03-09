@@ -1,5 +1,5 @@
 
-source meta
+source .meta
 
 @default-request = response
 

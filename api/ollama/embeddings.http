@@ -1,5 +1,5 @@
 
-source meta
+source .meta
 
 
 ### [request] embeddings
@@ -10,5 +10,5 @@ POST {{ollamaHost}}/api/embed
 {
     "model": "{{model}}",
     "input": "{{input}}",
-    "truncate": "{{truncate}}"
+    "truncate": {{truncate}}
 }
