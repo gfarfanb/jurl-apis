@@ -1,0 +1,9 @@
+
+# jurl
+/config/
+/executions/
+/history/
+/tmp/
+
+/**/executions/
+/**/history/

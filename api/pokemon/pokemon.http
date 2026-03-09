@@ -1,0 +1,23 @@
+
+@default-request = details
+
+
+### [request] details: Moves, species, base stats, abilities, typings an so on
+
+@set-name = gengar
+
+GET https://pokeapi.co/api/v2/pokemon/{{name}}
+
+output pokemonId = {{OUT/id}}
+
+
+### [request] encounters: Location where Pokémon can be found
+@description = All encounters for specified pokémon
+
+GET https://pokeapi.co/api/v2/pokemon/{{pokemonId}}/encounters
+
+
+### [flow] details+encounters: All previous steps
+
+step -n details
+step -n encounters

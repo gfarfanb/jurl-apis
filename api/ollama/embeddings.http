@@ -1,0 +1,14 @@
+
+source meta
+
+
+### [request] embeddings
+POST {{ollamaHost}}/api/embed
+
+@set-input = Retrieval-Augmented Generation (RAG) embedding model is required
+
+{
+    "model": "{{model}}",
+    "input": "{{input}}",
+    "truncate": "{{truncate}}"
+}

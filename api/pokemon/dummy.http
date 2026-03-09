@@ -1,0 +1,15 @@
+
+### [request] dummy: This endpoint is not defined in the original API
+POST https://pokeapi.co/api/v2/dummy
+
+opt --mock
+mock @statusCode = 201
+mock @responseFilePath = data/encounters.response
+mock Content-Type: application/json
+
+{
+    "name": "ditto",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/132/"
+}
+
+output locationArea = {{OUT/[first].location_area}}
