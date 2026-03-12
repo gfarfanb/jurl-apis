@@ -2,16 +2,23 @@
 ### [api]
 # https://docs.ollama.com/api
 
+@set-prompt = What type of problems was your model designed to solve?
+
+@list*-model = ministral-3:14b
+@list-model = gemma3n:e4b
+@list-model = translategemma:12b
+@list-model = deepseek-ocr:3b
+@list-model = embeddinggemma:300m
+@list-model = lfm2.5-thinking:1.2b
+@list-model = qwen3-embedding:8b
+@list-model = granite-embedding:278m
 @list-model = cogito:8b
 @list-model = qwen2.5-coder:14b
-@list-model = rnj-1:8b
 @list-model = qwen3.5:9b
-@list*-model = gemma3:12b
+@list-model = rnj-1:8b
 @list-model = granite4:7b-a1b-h
-@list-model = qwen3:8b
-@list-model = qwen3-vl:8b
-@list-model = deepseek-r1:8b
 @list-model = mistral:7b
+@list-model = deepseek-r1:8b
 
 @list-role = system
 @list*-role = user
