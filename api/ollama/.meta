@@ -4,12 +4,13 @@
 
 @set-prompt = What type of problems was your model designed to solve?
 
-@list*-model = ministral-3:14b
+@list*-model = ibm/granite-docling:258m
 @list-model = gemma3n:e4b
-@list-model = translategemma:12b
+@list-model = ministral-3:14b
 @list-model = deepseek-ocr:3b
-@list-model = embeddinggemma:300m
+@list-model = translategemma:12b
 @list-model = lfm2.5-thinking:1.2b
+@list-model = embeddinggemma:300m
 @list-model = qwen3-embedding:8b
 @list-model = granite-embedding:278m
 @list-model = cogito:8b
