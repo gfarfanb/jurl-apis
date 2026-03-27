@@ -1,0 +1,14 @@
+
+@default-request = char
+
+### [request] chat
+POST {{ollamaHost}}/v1/chat/completions
+
+{
+    "model": "{{model}}",
+    "messages": [
+        "role": "{{role}}",
+        "content": "{{content}}"
+    ]
+    "stream": {{stream}}
+}
