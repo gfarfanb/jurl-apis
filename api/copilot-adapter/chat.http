@@ -1,17 +1,20 @@
 
 source .meta
 
-@default-request = char
+@default-request = chat
 
 
 ### [request] chat
-POST {{ollamaHost}}/v1/chat/completions
+POST {{copilotAdapterHost}}/v1/chat/completions
+Content-Type: application/json
 
 {
     "model": "{{model}}",
     "messages": [
-        "role": "{{role}}",
-        "content": "{{content}}"
-    ]
+        {
+            "role": "{{role}}",
+            "content": "{{content}}"
+        }
+    ],
     "stream": {{stream}}
 }

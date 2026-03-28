@@ -34,3 +34,5 @@
 
 @list*-truncate = false
 @list-truncate = true
+
+@set-content = {{prompt}}

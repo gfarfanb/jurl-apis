@@ -11,3 +11,7 @@
 
 @list*-stream = false
 @list-stream = true
+
+@set-model = openai/gpt-4.1-nano
+
+@set-content = {{prompt}}

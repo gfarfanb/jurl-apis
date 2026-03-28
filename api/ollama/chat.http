@@ -20,9 +20,11 @@ POST {{ollamaHost}}/api/chat
 {
     "model": "{{model}}",
     "messages": [
-        "role": "{{role}}",
-        "content": "{{content}}"
-    ]
+        {
+            "role": "{{role}}",
+            "content": "{{content}}"
+        }
+    ],
     "stream": {{stream}}
 }
 
