@@ -1,5 +1,8 @@
 
+source .meta
+
 @default-request = char
+
 
 ### [request] chat
 POST {{ollamaHost}}/v1/chat/completions

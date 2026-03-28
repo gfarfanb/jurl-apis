@@ -1,0 +1,13 @@
+
+### [api]
+# https://docs.github.com/en/rest/models
+
+@set-prompt = What type of problems was your model designed to solve?
+
+@list-role = system
+@list*-role = user
+@list-role = assistant
+@list-role = tool
+
+@list*-stream = false
+@list-stream = true
