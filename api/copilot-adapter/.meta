@@ -15,3 +15,10 @@
 @set-model = openai/gpt-4.1-nano
 
 @set-content = {{prompt}}
+
+@list*-embedding_model = text-embedding-3-large
+@list-embedding_model = text-embedding-3-small
+@list-embedding_model = text-embedding-ada-002
+
+@list*-encoding = float
+@list-encoding = base64

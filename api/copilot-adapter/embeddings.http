@@ -1,0 +1,17 @@
+
+source .meta
+
+@default-request = embeddings
+
+
+### [request] embeddings
+POST {{copilotAdapterHost}}/v1/embeddings
+Content-Type: application/json
+
+@set-input = Retrieval-Augmented Generation (RAG) embedding model is required
+
+{
+    "model": "{{embedding_model}}",
+    "input": [ "{{input}}" ],
+    "encoding_format": "{{encoding}}"
+}

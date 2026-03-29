@@ -9,6 +9,6 @@ POST {{ollamaHost}}/api/embed
 
 {
     "model": "{{model}}",
-    "input": "{{input}}",
+    "input": [ "{{input}}" ],
     "truncate": {{truncate}}
 }

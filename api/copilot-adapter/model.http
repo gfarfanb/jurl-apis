@@ -1,11 +1,8 @@
 
+source .meta
+
 @default-request = models
 
 
 ### [request] models
 GET {{copilotAdapterHost}}/v1/models
-
-
-### [request] model
-GET {{copilotAdapterHost}}/v1/model
-&id={{model}}
