@@ -1,0 +1,6 @@
+
+@default-request = models
+
+
+### [request] models
+GET {{huggingFaceHost}}/models
