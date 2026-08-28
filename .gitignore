@@ -1,9 +1,11 @@
 
 # jurl
-/config/
+/config/.output/
 /executions/
 /history/
 /tmp/
 
+/**/config/.output/
 /**/executions/
 /**/history/
+/**/tmp/
